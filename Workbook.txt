@@ -1,0 +1,164 @@
+ QI.Which of the following are not built-in data types?
+• int
+• complex
+• sect
+• tuple
+• list
+• decimal
+A. sect, decimal
+
+Q2.Which is the correct way to write the keyword:
+• If
+• if
+• IF
+. _if_
+A. if
+
+QI.Write a program that swaps the values of variables
+a and b. I do not allow you to use a third
+variable. You also may not perform arithmetic on a and
+b.
+
+a,b = 5,6
+print(a,b)
+a,b = b,a
+print(a,b)
+
+Q2.Write a program with variable num and print it on
+the terminal, then add 10 to it and print it again.
+
+a = 5
+print(a)
+a +=10
+print(a)
+
+Q3.Write program with variables like name_l,name_2 and
+name_3 and assign three strings to it (names).
+Also, print them on the terminal so you get the output
+like:
+Hello<__name1__>
+Hello<__name2__>
+Hello<__name3__>
+
+name_1, name_2, name_3 = 'inas','aseel', 'ahmed'
+print('Hello '+name_1)
+print('Hello '+name_2)
+print('Hello '+name_3)
+
+
+Q3.Sort the following variable names into legal and
+illegal variable names:
+• surname
+• $money
+• <mood>
+• encoded_var
+• 2AddedVar
+• VarString
+• IntVar
+• int_
+• str
+• local_var
+• 6int9
+• Amt-A/c
+
+A- Legal -
+surname, encoded_var, VarString,
+IntVar, __init__, local_var
+Illegal -
+$money, <mood>, 2AddedVar, str,
+6int9, Amt-A/c
+
+
+Q4.Is the following program correct? Run the Program.
+What is the output? or What may go wrong? Correct it
+if it-’s wrong
+
+name = 'jone'
+age = 25
+txt = name +age
+print(txt)
+
+A- name = 'jone'
+age = 25
+txt = name +str(age)
+print(txt)
+
+QI.How can you fix the errors in the following
+program?
+'It's Python'
+""python" is easey"
+"He said, "GO"John"
+'well who's is this?'
+
+A-
+print('It\'s Python')
+print("python is easey")
+print("He said, 'GO'John")
+print('well who\'s is this?')
+
+Q2.Write a program to change the following string
+"the banana is yellow but the orange is orange”
+into
+fThe Banana Is Yellow But the Orange Is Orange”
+
+St = "the banana is yellow but the orange is"
+print(St.title())
+
+Q3.Given a string,
+Str = 'John Smith'
+create a program to generate the following outputs
+using string operations:
+
+john smith
+JHON SMITH
+J
+th
+Smith
+hon
+10
+
+A- 
+Str = 'John Smith'
+print(Str.lower())
+print(Str.upper())
+
+print(Str[0])
+print(Str[-2:])
+
+print(Str[-5:])
+print(Str[:2])
+
+print(Str[2]+Str[1]+Str[3])
+print(len(Str))
+
+
+Q4.Write a program to decode the following code
+<74><85><83><84><95><70><85><78>.
+Tip : These codes are Unicode Values
+
+A- 
+code = chr(74)+ chr(85)+\
+chr(83)+chr(84)+\
+chr(95)+chr(70)+\
+chr(85)+chr(78)
+print(code)
+
+Q5.What will be the output of the following program?
+Str = 'python is easy'
+2 a = Str.capitalize()
+3 b = Str.upper()
+4 c = Str. replace('easy ‘ not tough')
+5 d = Str.find('Easy')
+6 e = Str[:7]
+7 f = Str[ll]
+8 g = Str[2] + Str[-3:-1]\
+9 + Str[2] + Str[l]
+10 h = chr(72) + chr(97) + chr(67)\
+11 + chr(75) + chr(101) + chr(100)
+12
+■1 = '\x65\xSE\x64'
+13 all = a+'\n'+b+'\n'+c+'\n'+str(d)+'\n ' \
+14 +e+'\n'+f+'\n'+g+'\n'+h+'\n'+i
+I 15 print(d)
+
+

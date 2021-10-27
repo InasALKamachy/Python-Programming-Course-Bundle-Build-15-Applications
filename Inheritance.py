@@ -12,6 +12,10 @@ class newNumber(Number):
         print("the nimber is : "+str(self.num))
 
 num = newNumber()
+new_number = 100 #public variable can be access in all program
+_newNumber = 50 # privet variable can be access inside the class (parent, child)
+__newNumber = 10 #privet variable can be access isnside the child class onley
+
 num.show_nu()
 num.increase()
 num.show_nu()

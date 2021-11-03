@@ -53,3 +53,6 @@ print(dir(inspect))
 #print(hasattr(gr,'age')) ## boolean return true if the attribute is exist in the class otherwise false. 
 
 #hash(var) to compare object in dictiornary
+
+
+#repr() return string of value

@@ -38,3 +38,11 @@ c.show()
 c.p()
 ==========================================================
 
+import fucntions
+import inspect
+fucntions.grting('x')
+print(dir(fucntions))
+print(dir(inspect))
+
+# use dir(file_name) ==> to know all the function that file have
+# use dir(module)==> to know all the methode that modeul have. 

@@ -46,3 +46,10 @@ print(dir(inspect))
 
 # use dir(file_name) ==> to know all the function that file have
 # use dir(module)==> to know all the methode that modeul have. 
+
+
+#globals() return every thing in the file as a dictonary key: value
+
+#print(hasattr(gr,'age')) ## boolean return true if the attribute is exist in the class otherwise false. 
+
+#hash(var) to compare object in dictiornary

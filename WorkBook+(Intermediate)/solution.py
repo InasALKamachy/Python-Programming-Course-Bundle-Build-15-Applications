@@ -77,6 +77,42 @@ print(Max)
 
 #Q2
 
+from random import *
+def shu(l):
+    '''This function is used to shuffle the value
+    Coding: shuffle(l)'''
+    shuffle(l)
+    print(l)
+N = ['a','b','c']
+shu(N)
+
+#Q3
+lst = [1,2,44,55,6]
+sum = 0
+for i in lst:
+  sum+=i
+print(sum)
+
+#Q4
+lst = ['C#','C==', 'Python','Java']
+ex = False
+num_ex = 0
+for i in lst:
+  if i =='C#':
+
+    ex = True
+    print(ex)
+    num_ex +=1
+  else:
+   ex = False
+   print(ex)
+    
+Function
+#Q1
+
+
+  
+
 ##Q7
 
 

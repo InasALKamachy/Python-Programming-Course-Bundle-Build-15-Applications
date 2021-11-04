@@ -117,6 +117,83 @@ def greeting():
 greeting()
   
 
-##Q7
+##Q3
+
+try:
+   # do something
+
+
+   print(isinstance(x, (int, float, str)))
+   pass
+
+except ValueError:
+   # handle ValueError exception
+   print("ValueError")
+   pass
+
+except (TypeError, ZeroDivisionError):
+   # handle multiple exceptions
+   print("typeError, zeroo")
+   # TypeError and ZeroDivisionError
+   pass
+
+except:
+   # handle all other exceptions
+   print("not int not str not float")
+   pass
+  
+ #Q4
+
+# Program to display the Fibonacci sequence up to n-th term
+
+nterms = int(input("How many terms? "))
+
+# first two terms
+n1, n2 = 0, 1
+count = 0
+
+# check if the number of terms is valid
+if nterms <= 0:
+   print("Please enter a positive integer")
+# if there is only one term, return n1
+elif nterms == 1:
+   print("Fibonacci sequence upto",nterms,":")
+   print(n1)
+# generate fibonacci sequence
+else:
+   print("Fibonacci sequence:")
+   while count < nterms:
+       print(n1)
+       nth = n1 + n2
+       # update values
+       n1 = n2
+       n2 = nth
+       count += 1
+
+#Q5 
+def lst(x):
+   y = set(x)
+   print(list(y))
+   
+L = [1,1,1,3,4,5,6]
+lst(L)
+
+
+Object Oriented Program
+#Q1
+class Bird():
+   def __init__(self, name, color, weight):
+      self.name = name
+      self.color = color
+      self.weight = weight
+   def fly(self):
+      print("fly")
+   def flap_wings(self):
+      print("flap_wing")
+   def chirp(self):
+      print("chirp")
+      
+  #Q2
+  
 
 

@@ -57,8 +57,26 @@ while i ==True:
 
 
 ##Q2
+j = []
+for i in range(11):
 
+  if i!=3 & i!=7:
+    
+    j.append(i)
+print(j)
+
+##For Loop
+#Q1
+L = [12,22,56]
+Max = 0
+for i in L:
   
+  if i > Max:
+    Max = i
+print(Max)
+
+#Q2
+
 ##Q7
 
 

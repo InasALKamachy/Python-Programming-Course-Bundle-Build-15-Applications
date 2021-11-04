@@ -110,7 +110,11 @@ for i in lst:
 Function
 #Q1
 
+def greeting():
+  x = input("Enter your name: ")
+  print("Hello "+x)
 
+greeting()
   
 
 ##Q7

@@ -16,7 +16,10 @@ def pick():
 
     if sld_val.get()!=1:
         ele = sample(INP,sld_val.get())
-        chois = 'Choice: ' + str(ele)
+        lab = ''
+        for e in ele:
+            lab += ' '+e
+        chois = 'Choice: ' + str(lab)
     else:
         chois = 'Choise: '+str(choice(INP))
 

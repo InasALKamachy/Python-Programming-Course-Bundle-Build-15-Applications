@@ -10,16 +10,22 @@ inp.grid(row = 0, column = 0, columnspan = 2, padx = 25, pady = 5)
 no_choice = IntVar()
 rb1 = Radiobutton(App, text = '1', variable = no_choice, value = 1)
 rb2 = Radiobutton(App, text = '2', variable = no_choice, value = 2)
+rb3 = Radiobutton(App, text = '3', variable = no_choice, value = 3)
 rb1.deselect()
 rb2.deselect()
+rb3.deselect()
 rb1.grid(row = 1, column = 0)
 rb2.grid(row = 1, column = 1)
+rb3.grid(row = 1, column = 2)
 
 def pick():
     INP = (inp.get()).split(',')
     if no_choice.get()==2:
         ele = sample(INP,2)
         chois = 'Choice: ' + str(ele[0])+' '+str(ele[1])
+    elif no_choice.get()==3:
+        ele = sample(INP,3)
+        chois = 'Choice: ' + str(ele[0])+' '+str(ele[1]) +' '+str(ele[2])
     else:
         chois = 'Choise: '+str(choice(INP))
 
